@@ -8,6 +8,10 @@ html{
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+    --color-brown: #926239;
+    --color-white: #ffffff;
+}
 .hero{
     background-image: url('../images/beachshowcase.jpg');
     height: 100vh;
@@ -43,4 +47,20 @@ html{
 .hero .button:hover {
   background-color: #926239;
   color: #ffffff;
+}
+
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bg-brown {
+    background-color: var(--color-brown);
+    color: var(--color-white);
+}
+
+.bg-white {
+    background-color: var(--color-white);
+    color: var(--color-brown);
 }
