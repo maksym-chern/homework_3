@@ -1,7 +1,8 @@
 html{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
     line-height: 1.6;
-    color: #fff;
+    color: var(--color-white);
 }
 * {
   margin: 0;
@@ -10,7 +11,7 @@ html{
 }
 :root {
     --color-brown: #926239;
-    --color-white: #ffffff;
+    --color-white:  #f4ece6;
 }
 .hero{
     background-image: url('../images/beachshowcase.jpg');
@@ -31,22 +32,21 @@ html{
 }
 .hero .tittle-text{
     font-size: 1.5rem;
-    color: #926239;
-    /*max-width: 600px;*/
+    color: var(--color-brown);
     margin-bottom: 1.5rem;
 }
 .hero .button{
     display: inline-block;
     padding: 10px 25px;
     background-color: rgba(255, 255, 255, 0.2);
-    color: #926239;
+    color: var(--color-brown);
     text-decoration: none;
-    border: 1px solid #926239;
+    border: 1px solid var(--color-brown);
     border-radius: 8px;
 }
 .hero .button:hover {
-  background-color: #926239;
-  color: #ffffff;
+  background-color: var(--color-brown);
+  color: var(--color-white);
 }
 
 .content-section {
@@ -63,4 +63,14 @@ html{
 .bg-white {
     background-color: var(--color-white);
     color: var(--color-brown);
+}
+.block-full {
+    flex: 1 1 100%;
+    text-align: center;
+    padding: 20px 20px;
+}
+.block-third {
+    flex: 1 1 33.333%; 
+    text-align: left;
+    padding: 20px 20px;
 }
