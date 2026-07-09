@@ -25,17 +25,17 @@ html{
     text-align: center;
     padding: 0 20px;
 }
-.hero .tittle{
+.tittle{
     font-size: 3rem;
     margin-bottom: 1rem;
     color: #926239;
 }
-.hero .tittle-text{
+.tittle-text{
     font-size: 1.5rem;
     color: var(--color-brown);
     margin-bottom: 1.5rem;
 }
-.hero .button{
+.button{
     display: inline-block;
     padding: 10px 25px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -44,7 +44,7 @@ html{
     border: 1px solid var(--color-brown);
     border-radius: 8px;
 }
-.hero .button:hover {
+.button:hover {
   background-color: var(--color-brown);
   color: var(--color-white);
 }
